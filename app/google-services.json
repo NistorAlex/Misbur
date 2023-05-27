@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "59620617213",
+    "project_id": "helpmehelpyou-4eb0c",
+    "storage_bucket": "helpmehelpyou-4eb0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59620617213:android:1a572a19c2536e897ac794",
+        "android_client_info": {
+          "package_name": "misbur.help"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59620617213-pav5hmaoabkldor71jrlutjsrcj7lmfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-DwNCG6Hi7l6zIRhJl7JXDczYxrxwK_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59620617213-pav5hmaoabkldor71jrlutjsrcj7lmfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
