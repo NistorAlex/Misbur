@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_my_profile"
+        android:title="My Profile" />
+    <item
+        android:id="@+id/action_helping"
+        android:title="Helping" />
+    <item
+        android:id="@+id/action_helped"
+        android:title="Helped" />
+    <item
+        android:id="@+id/action_to_be_added1"
+        android:title="To Be Added 1" />
+    <item
+        android:id="@+id/action_to_be_added2"
+        android:title="To Be Added 2" />
+</menu>

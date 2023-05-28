@@ -2,7 +2,9 @@ package misbur.help;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.InputType;
 import android.text.TextUtils;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
@@ -25,6 +27,7 @@ public class SignUpActivity extends AppCompatActivity {
     FirebaseAuth mAuth;
     ProgressBar progressBar;
     TextView textView;
+
     @Override
     public void onStart() {
         super.onStart();
@@ -46,6 +49,8 @@ public class SignUpActivity extends AppCompatActivity {
         buttonReg = findViewById(R.id.btn_register);
         progressBar = findViewById(R.id.progressbar);
         textView = findViewById(R.id.loginNow);
+        editTextPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
+        editTextPassword.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
